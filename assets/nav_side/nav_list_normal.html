@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html style="background-color:#8282b8;">
+	<script>
+		var currentURL = document.referrer;
+		if(currentURL.includes("resources")) {
+			console.log("loading main nav list!");
+			window.location.href="nav_list_resources.html";
+		} else {
+			console.log("couldnt find suitable menu for this one so resorted to default :/");
+			window.location.href="nav_list_main.html";
+		}
+	</script>
+</html>
