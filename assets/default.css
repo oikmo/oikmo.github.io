@@ -1,0 +1,124 @@
+/*AS CREATED BY OIKMO*/
+
+img#main_logo {
+	border-style:dotted;
+	border-width:2px;
+	border-color:black;
+	position:absolute;
+	width:150px;
+	z-index:0;
+}
+
+div#container_parent {
+	z-index: 49;
+}
+
+div#container {
+	top:0;
+	position: relative;
+	height:100%;
+	width:100%;
+	right:1%;
+	left:0.5%;
+}
+iframe#content_thing{
+	background-color: #8282b8;
+	top:80px;
+	border-color:black;
+	border-style:solid;
+	border-width:2px;
+	position:relative;
+	height:200px;
+	width:150px;
+}
+
+div#content{
+	background-color: #B8BBBC;
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+}
+div#selected_content{
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+	background-color: #9EA3A5;	
+}
+div#selected_content_other {
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+	background-color: #909399;
+}
+
+div#page_title{
+	top:-208px;
+	background-color:#cfcfcf;
+	border:solid 2px black;
+	font-size:25px;
+	padding-top:17px;
+	box-sizing:border-box;
+   	height:76px;
+	width: 100%;
+	left:158px;
+	position:relative;
+   	text-align:center;
+	z-index: 48;
+}
+
+div#page_title_credits {
+	font-size:50%;
+	display: block;
+	position:center;
+	font-weight:none;
+	font-style:none;
+}
+
+div#page_title_title {
+	display: block;
+	float:center;
+	font-weight:bold;
+	font-style:italic;
+}
+
+div#page_body{
+	background-color:#cfcfcf;
+	border:solid 2px black;
+	left:158px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	z-index: 48;
+	top:-205px;
+	position: relative;
+    width: 100%;
+    box-sizing:border-box; 
+}
+
+div#footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	z-index:51;
+	position: fixed;
+}
+
+/*div#content_banner{
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+    height: 18px;
+	width: 55%;
+	left:185px;
+    overflow: auto;
+    text-align: center;
+    display: inline-block;
+    flex-direction: row;
+	margin-top:124px;
+	z-index: 48;
+	position:absolute;
+}*/
